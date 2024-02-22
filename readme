@@ -1,0 +1,13 @@
+create_parking_lot <capacity>: Create a parking lot with the specified capacity.
+park <registration_number> <color>: Park a car with the given registration number and color.
+leave <slot_number>: Remove the car parked at the specified slot number.
+status: Display the current status of the parking lot.
+registration_numbers_for_cars_with_colour <color>: Find registration numbers of cars with the specified color.
+slot_number_for_registration_number <registration_number>: Find the slot number for the car with the specified registration number.
+slot_numbers_for_cars_with_colour <color>: Find slot numbers of cars with the specified color.
+exit: Terminate the application.
+
+
+Compile the Java files: javac *.java
+
+Run the application: java Main
